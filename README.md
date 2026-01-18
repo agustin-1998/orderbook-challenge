@@ -1,6 +1,3 @@
-docker run -p 3000:3000 orderbook-challenge
-
-
 # Binance Orderbook Challenge
 
 Real-time orderbook viewer for cryptocurrency pairs using the Binance WebSocket API. Built with Next.js, TypeScript, and Tailwind CSS.
@@ -75,10 +72,7 @@ src/
 
 ## 🛠️ What I Would Improve with More Time
 - Add unit and integration tests.
-- Implement a depth chart visualization. 
-- Allow adding more currency pairs dynamically from the API (https://api.binance.com/api/v3/exchangeInfo).
-- Improve accessibility (a11y) and add dark mode support.
-- Add pagination or infinite scroll to view more orderbook levels.
+- Dark mode support.
 
 ## 📝 Final Notes
 This project was developed as a technical challenge. Clarity, performance, and user experience were prioritized. The code is easily extensible and ready to scale with new features.

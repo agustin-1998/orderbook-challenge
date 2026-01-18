@@ -170,7 +170,6 @@ export function useWebSocket({
     connectRef.current();
 
     return () => {
-      console.log("[WebSocket] Cleaning up connection for:", url);
       isMountedRef.current = false;
       shouldReconnectRef.current = false;
       clearReconnectTimeout();
